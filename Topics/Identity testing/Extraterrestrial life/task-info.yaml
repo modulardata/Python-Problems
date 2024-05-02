@@ -1,0 +1,27 @@
+type: code
+files:
+  - name: main.py
+    visible: true
+    highlight_level: NONE
+    text: |-
+      # The parental gene sequences are stored here
+      one_ancestor = input()
+      other_ancestor = input()
+      
+      # Calculate the identity of a new alien here
+      new_alien = ...
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8299#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 4. Runtime error
+
+    Error:
+      File "/sandbox/main.py", line 6
+        print(id(one_ancestor) + id(other_ancestor)) / 2)
+                                                        ^
+    SyntaxError: unmatched ')'
+  time: "Sat, 06 Apr 2024 13:23:13 UTC"
+record: -1
+submission_language: python3
